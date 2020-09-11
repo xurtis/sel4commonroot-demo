@@ -20,7 +20,9 @@
 	<project name="seL4.git" path="kernel"/>
 
 	<project name="sel4commonroot.git" remote="xurtis" path="projects/commonroot" />
-	<project name="sel4commonroot-demo.git" remote="xurtis" path="projects/commonroot-demo" />
+	<project name="sel4commonroot-demo.git" remote="xurtis" path="projects/commonroot-demo">
+		    <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
+	</project>
 	<project name="sel4corelibs.git" remote="xurtis" path="projects/corelibs" />
 	<project name="sel4runtime.git" remote="sel4proj" path="projects/sel4runtime"/>
 </manifest>
