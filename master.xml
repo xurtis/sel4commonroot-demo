@@ -6,9 +6,9 @@
 -->
 
 <manifest>
-	<remote name="seL4" fetch="https://github.com/sel4" />
-	<remote name="sel4proj" fetch="https://github.com/sel4proj" />
-	<remote name="xurtis" fetch="https://github.com/xurtis" />
+	<remote name="seL4" fetch="../sel4" />
+	<remote name="sel4proj" fetch="../sel4proj" />
+	<remote name="xurtis" fetch="." />
 
 	<default revision="master" remote="seL4" />
 
