@@ -12,6 +12,7 @@ project(commonroot-demo C CXX ASM)
 
 find_package(seL4 REQUIRED)
 find_package(elfloader-tool REQUIRED)
+find_package(sel4commonroot REQUIRED)
 
 # Set the roottask CNode size to be large enough for DTB, timer caps, etc
 # Note that this works for the platforms that we have at the moment, and may
@@ -35,3 +36,6 @@ if(KernelPlatformQEMUArmVirt)
 endif()
 
 GenerateSimulateScript()
+
+sel4commonroot_setup_system()
+util_libs_import_libraries()
