@@ -25,4 +25,5 @@
 	</project>
 	<project name="sel4corelibs.git" remote="xurtis" path="projects/corelibs" />
 	<project name="sel4runtime.git" remote="sel4proj" path="projects/sel4runtime"/>
+	<project name="util_libs.git" path="projects/util_libs"/>
 </manifest>

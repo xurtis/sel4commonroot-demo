@@ -12,6 +12,7 @@ project(commonroot-demo C CXX ASM)
 
 find_package(seL4 REQUIRED)
 find_package(elfloader-tool REQUIRED)
+find_package(util_libs REQUIRED)
 find_package(sel4commonroot REQUIRED)
 
 # Set the roottask CNode size to be large enough for DTB, timer caps, etc
